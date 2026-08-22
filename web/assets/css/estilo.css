@@ -235,6 +235,9 @@ body {
 
 .boton-tema:hover { border-color: var(--acento); }
 
+/* En la barra superior, empuja el botón de tema a la derecha */
+.barra-lectura .boton-tema { margin-left: auto; }
+
 /* ---------- Zona de lectura ---------- */
 .zona-lectura {
   flex: 1;
