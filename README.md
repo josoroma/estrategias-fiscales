@@ -2,6 +2,8 @@
 
 **Planificación Tributaria.**
 
+**Sitio en vivo:** https://josoroma.github.io/estrategias-fiscales/
+
 Sitio web estático, autocontenido y navegable que reúne **50 estrategias de
 planificación tributaria lícita** para personas y empresas en Costa Rica,
 organizadas en cinco perfiles:
