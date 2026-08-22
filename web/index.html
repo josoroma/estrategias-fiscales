@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="oscuro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estrategias Fiscales de Costa Rica · Planificación Tributaria</title>
+  <meta name="description" content="Guía de planificación tributaria lícita para Costa Rica: estrategias generales, trabajadores asalariados e independientes, PYMEs, exportadores y el sector tecnológico." />
+  <link rel="stylesheet" href="assets/css/estilo.css" />
+  <script>document.documentElement.dataset.tema = localStorage.getItem("estrategias.tema") || "oscuro";</script>
+</head>
+<body>
+
+  <div id="progreso" aria-hidden="true"></div>
+
+  <div class="contenedor">
+
+    <!-- ══════════ Barra lateral ══════════ -->
+    <aside class="barra-lateral" id="lateral">
+      <header class="cabecera-lateral">
+        <p class="marca">Costa Rica</p>
+        <h1>Estrategias Fiscales</h1>
+        <p class="subtitulo">Planificación Tributaria</p>
+      </header>
+
+      <div class="buscador">
+        <input type="search" id="busqueda" placeholder="Buscar estrategia…"
+               autocomplete="off" aria-label="Buscar estrategia" />
+      </div>
+
+      <nav class="indice" id="indice" aria-label="Índice de estrategias"></nav>
+
+      <footer class="pie-lateral">
+        <button class="boton-tema" id="boton-tema" type="button" aria-label="Cambiar tema">
+          <span id="tema-icono">☾</span> <span id="tema-texto">Tema oscuro</span>
+        </button>
+        <p class="nota">No sustituye el criterio profesional del abogado ni del contador público autorizado.</p>
+      </footer>
+    </aside>
+
+    <!-- ══════════ Zona de lectura ══════════ -->
+    <main class="zona-lectura" id="lector">
+      <div class="barra-lectura">
+        <button class="boton-menu" id="boton-menu" type="button" aria-label="Abrir índice">☰</button>
+        <span class="ruta" id="ruta"></span>
+      </div>
+
+      <article class="articulo" id="capitulo">
+        <p>Cargando…</p>
+      </article>
+    </main>
+
+  </div>
+
+  <div class="velo" id="velo" hidden></div>
+
+  <script src="data/estrategias.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
